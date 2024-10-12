@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stylish Text Example</title>
+    <title>Генератор Эффектного Текста</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="stylish-text">
-        Эффектный Текст </div>
+    <div class="container">
+        <h1>Генератор Эффектного Текста</h1>
+        <input type="text" id="userText" placeholder="Введите ваш текст здесь">
+        <button onclick="applyEffect()">Применить эффект</button>
+        <div id="outputText" class="stylish-text"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
